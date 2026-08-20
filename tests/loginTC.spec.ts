@@ -23,7 +23,7 @@ test("AboutUsTC", async ({ page }) => {
 
     //await page.goto('https://www.demoblaze.com/index.html');
     console.log("This is About us tc under execution");
-    await page.locator("//a[text()='About us']").clickkk();
+    await page.locator("//a[text()='About us']").click();
 
 
 });
